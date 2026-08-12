@@ -18,7 +18,28 @@ SatOD-Dataset/
     ├── images/
     └── labels/
 
----
-
 ```
 ## 🚀 How to Use (Google Colab / Local)
+You can directly clone this repository and start training your YOLO models without any extra configuration.
+### 1. Clone the repository
+```text
+git clone [https://github.com/behnamsolatinia/SatOD-Dataset.git](https://github.com/behnamsolatinia/SatOD-Dataset.git)
+
+```
+
+### 2. Train a YOLO model
+```text
+from ultralytics import YOLO
+
+# Load a pre-trained YOLO model
+model = YOLO('yolov9m.pt')
+
+# Train the model using the provided data.yaml
+results = model.train(
+    data='SatOD-Dataset/data.yaml', 
+    epochs=100, 
+    imgsz=640,
+    batch=16
+)
+```
+

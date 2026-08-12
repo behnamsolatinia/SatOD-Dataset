@@ -20,5 +20,5 @@ SatOD-Dataset/
 
 ---
 
-```text
+```
 ## 🚀 How to Use (Google Colab / Local)

@@ -42,4 +42,19 @@ results = model.train(
     batch=16
 )
 ```
+---
 
+## 📖 Citation
+
+If you use this dataset in your research or academic projects, please consider citing this repository. 
+
+```bibtex
+@misc{satod_dataset_2026,
+  author = {Solatinia, Behnam},
+  title = {SatOD-Dataset: A Lightweight Aerial and Satellite Imagery Dataset for Small Object Detection},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{[https://github.com/behnamsolatinia/SatOD-Dataset](https://github.com/behnamsolatinia/SatOD-Dataset)}}
+}
+```

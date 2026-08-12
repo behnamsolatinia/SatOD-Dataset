@@ -18,4 +18,6 @@ SatOD-Dataset/
     ├── images/
     └── labels/
 
+---
+
 ## 🚀 How to Use (Google Colab / Local)
